@@ -43,7 +43,7 @@ const ApiKey = (p) => {
             <br/>
           </ListItem>
           {isOwner &&
-            <ListItem className="text-left">
+            <ListItem className="text-right">
               <Confirm
                 onConfirm={p.generateNewKey}
                 body={

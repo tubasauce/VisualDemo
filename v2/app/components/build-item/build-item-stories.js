@@ -43,7 +43,7 @@ storiesOf('BuildItem', module)
         build="108"
         status="running"
         start={start}
-        containers={runningContainers.concat(runningContainers)}
+        containers={runningContainers}
         user={{}} />
     ))
     .add('failure', () => (

@@ -46,7 +46,7 @@ const BuildItem = (p) => {
                   body="Are you sure you want to Cancel this Build?"
                   confirmText="Yes"
                   title="Cancel Build">
-                  <Button size="xs" border type="primary" className="space-left-2">Cancel Build</Button>
+                  <Button size="xs" border className="space-left-2">Cancel Build</Button>
                 </Confirm>
               }
               {isError &&

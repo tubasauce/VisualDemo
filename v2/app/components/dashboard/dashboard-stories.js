@@ -45,7 +45,10 @@ storiesOf('Dashboard', module)
         accounts={accounts}
         accountsData={accountsData}
         activity={activity}
-        activityData={activityData}
+        activityData={
+          ...activityData,
+          isTrialExpired: true
+        }
         ui={ui}
         states={{}}
         statesGroupedData={[]}
