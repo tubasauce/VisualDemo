@@ -4,5 +4,6 @@ module.exports = {
   storybookStaticDir: 'public',
   apiKey: process.env.SCREENER_API_KEY,
   resolution: '1024x768',
-  baseBranch: 'master'
+  baseBranch: 'master',
+  failureExitCode: 0
 };
